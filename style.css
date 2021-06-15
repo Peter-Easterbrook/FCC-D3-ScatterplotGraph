@@ -82,8 +82,7 @@ svg {
   background-color: #000;
   border-radius: 0.5rem;
 }
-#title,
-#legend {
+#title {
   font-size: 1.6rem;
   font-weight: 300;
   fill: #fff;
@@ -105,4 +104,11 @@ g {
   margin-top: 1rem;
   font-size: 1.4rem;
   color: #fff;
+}
+
+#legend {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
 }
