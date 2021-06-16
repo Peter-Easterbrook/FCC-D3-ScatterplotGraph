@@ -10,9 +10,9 @@ let yScale;
 let xAxis;
 let yAxis;
 
-let width = 1040;
-let height = 780;
-let padding = 80;
+let width = 884;
+let height = 663;
+let padding = 65;
 
 let svg = d3.select('svg');
 let tooltip = d3.select('#tooltip');
