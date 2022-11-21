@@ -11,7 +11,7 @@ let xAxis;
 let yAxis;
 
 let width = 884;
-let height = 663;
+let height = 600;
 let padding = 65;
 
 let svg = d3.select('svg');
