@@ -34,6 +34,7 @@
     <title>FCC Scatterplot Graph</title>
   </head>
   <body>
+    <canvas id="thpace"></canvas>
     <h1 id="title">Doping in Professional Bicycle Racing</h1>
     <svg id="canvas"></svg>
     <h4 id="legend">
@@ -41,5 +42,16 @@
       Orange = Doping Allegation : Green = No Allegation
     </h4>
     <div id="tooltip"></div>
+    <script src="thpace.min.js"></script>
+    <script>
+      const d3canvas = document.getElementById('thpace');
+
+      const d3settings = {
+        colors: ['#000', '#0069d2', '#000'],
+        triangleSize: 65,
+      };
+
+      ThpaceGL.create(d3canvas, d3settings);
+    </script>
   </body>
 </html>
